@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    background: linear-gradient(to left, rgb(206, 180, 239), rgb(183, 203, 227));
+    flex-direction: column;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to left, coral, gold);
+    box-shadow: 3px 3px 40px grey;
+    margin: 100px;
+    border-radius: 50px;
+}
+
+.color{
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+    margin: 50px;
+    padding: 20px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    margin: 100px;
+    padding: 30px;
+}
